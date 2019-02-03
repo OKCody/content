@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-<button href="https://{{site.github_username}}.github.io/{{site.id}}">Live</button>
+<a href="https://okcody.github.io/content/"><div style="width: 100px; height:50px; background-color: green;">Live</div></a>
