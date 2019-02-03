@@ -3,9 +3,9 @@ layout: null
 ---
 var cacheName = 'hello-world-page';
 var filesToCache = [
-  '/assets/css/custom.css',
-  '/assets/css/hmbgr.svg',
-  {% for page in site.pages %}'{{ page.url }}'{% unless forloop.last %},{% endunless %}
+  '/theme/assets/css/custom.css',
+  '/theme/assets/css/hmbgr.svg',
+  {% for page in site.pages %}'{{ site.id }}/{{ page.url }}'{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];
 self.addEventListener('install', function(e) {
