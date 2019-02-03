@@ -1,0 +1,33 @@
+# Site Settings
+title: Start Jekyll
+subtitle: testing
+author: Cody Taylor
+license: CC BY
+email: codyalantaylor@gmail.com
+description: >
+  A guide to getting started with Jekyll.
+keywords: "word1, word2, word3"
+baseurl: ""
+twitter_username: OKCody_
+github_username:  OKCody
+remote_theme: OKCody/Theme
+theme_color: "#FFFFFF"
+#plugins:
+#  - jekyll-optional-front-matter
+# Build Settings
+include:
+  - _pages
+  - sw.js
+kramdown:
+  input: GFM
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "toc"
+  -
+    scope:
+      path: "_pages"
+    values:
+      layout: "pages"
