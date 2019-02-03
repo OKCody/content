@@ -10,10 +10,11 @@ keywords: "word1, word2, word3"
 baseurl: ""
 twitter_username: OKCody_
 github_username:  OKCody
-remote_theme: OKCody/Theme
 theme_color: "#FFFFFF"
-#plugins:
-#  - jekyll-optional-front-matter
+plugins:
+  - jekyll-remote-theme
+  - jekyll-optional-front-matter
+remote_theme: OKCody/Theme
 # Build Settings
 include:
   - _pages
