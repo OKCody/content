@@ -8,7 +8,7 @@ email: codyalantaylor@gmail.com
 description: >
   A guide to getting started with Jekyll.
 keywords: "word1, word2, word3"
-baseurl: ""
+baseurl: "/" #local: /, github-pages: /theme
 twitter_username: OKCody_
 github_username:  OKCody
 theme_color: "#FFFFFF"
