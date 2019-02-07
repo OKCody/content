@@ -16,7 +16,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-optional-front-matter
 remote_theme: OKCody/Theme
-id: content
+id: "" #content
 # Build Settings
 include:
   - _pages
