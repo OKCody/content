@@ -21,6 +21,8 @@ id: "" #content
 include:
   - _pages
   - sw.js
+exclude:
+  - assets/js/lunr/
 kramdown:
   input: GFM
 defaults:
