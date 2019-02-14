@@ -21,7 +21,6 @@ id: "" #content
 # Build Settings
 include:
   - _pages
-  - sw.js
 exclude:
   - assets/js/lunr/
 kramdown:
