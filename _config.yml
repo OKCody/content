@@ -30,7 +30,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "toc"
+      layout: "pages"
   -
     scope:
       path: "_pages"
