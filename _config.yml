@@ -15,12 +15,12 @@ theme_color: "#FFFFFF"
 plugins:
   - jekyll-remote-theme
   - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
 remote_theme: OKCody/Theme
 id: "" #content
 # Build Settings
 include:
   - _pages
-  - sw.js
 exclude:
   - assets/js/lunr/
 kramdown:
